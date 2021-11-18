@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>提示事项</title>
+</head>
+<!-- 导航栏 -->
+<nav class="navbar navbar-light bg-primary fixed-top ">
+    <a class="navbar-brand text-light">某管理系统</a>
+    <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="#" role="button" aria-expanded="false">用户操作</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">个人中心</a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">退出</a>
+            </div>
+        </li>
+    </ul>
+
+</nav>
+<!-- 侧边导航 -->
+<nav class="nav flex-column navList pt-4 position-fixed h-100 pt-5 mt-4">
+    <a class="nav-link text-light active" href="index.html">首页</a>
+    <a class="nav-link text-light" href="user.html">用户中心</a>
+    <a class="nav-link text-light" href="search.html">数据查询</a>
+    <a class="nav-link text-light" href="data.html">数据面板</a>
+    <a class="nav-link text-light" href="#">提示事项<span class="mx-4 badge badge-pill badge-warning ">4</span></a>
+</nav>
+<!-- 主体 -->
+<div class="mian position-fixed">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active " aria-current="page">提示事项</li>
+        </ol>
+    </nav>
+
+    <div class="m-2">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">我需要操作的事项1</li>
+            <li class="list-group-item">我需要操作的事项2</li>
+            <li class="list-group-item">我需要操作的事项3</li>
+            <li class="list-group-item">我需要操作的事项4</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<body>
+    <script src=" ../bootstrap-4.6.1-dist/js/jquery.min.js "></script>
+    <script src="../bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>

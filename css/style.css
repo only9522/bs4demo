@@ -1,0 +1,27 @@
+.navList {
+    background-color: #283643;
+    width: 12rem;
+    color: #fff;
+}
+
+.navList>a {
+    height: 3rem;
+}
+
+.navList>a:hover {
+    background-color: #3c4248;
+}
+
+.mian {
+    left: 12rem;
+    top: 3.5rem;
+    bottom: 0;
+    right: 0;
+}
+
+.text-h6 {
+    height: 3rem;
+    line-height: 3rem;
+    color: #6c757d;
+    border-bottom: 2px solid #e9ecef;
+}
